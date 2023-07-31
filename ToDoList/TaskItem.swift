@@ -1,0 +1,14 @@
+//
+//  TaskItem.swift
+//  ToDoList
+//
+//  Created by Lazzat on 27.07.2023.
+//
+
+import Foundation
+
+
+struct TaskItem: Codable{
+    var name = ""
+    var isComplete = false
+}
